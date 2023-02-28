@@ -25,10 +25,21 @@ body {
 
 button {
   width: 100%;
+  background-color: rgb(62, 59, 59);
+  color: white;
+}
+
+.divideButton,
+.multiplyButton,
+.minusButton,
+.addButton,
+.equalButton {
+  background-color: rgb(216, 141, 0);
 }
 
 button.clearButton {
   width: 310%;
+  background-color: rgb(150, 147, 147);
 }
 
 .row1 {
@@ -41,6 +52,11 @@ button.clearButton {
   width: 295px;
   height: 75px;
   font-size: 28px;
+}
+
+span {
+  padding-bottom: 20px;
+  padding-right: 10px;
 }
 
 .row2 {
