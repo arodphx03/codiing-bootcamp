@@ -4,41 +4,90 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  color: white;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: white;
 }
 
 .calContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border: 3px solid white;
-  width: 300px;
-  height: 600px;
+  width: 301px;
+  height: 456px;
   position: relative;
 }
 
-.outputScreen {
+button {
+  width: 100%;
+}
+
+button.clearButton {
+  width: 310%;
+}
+
+.row1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
   position: absolute;
   top: 0;
-  border: 1px dashed white;
-  width: 300px;
-  height: 100px;
+  border-bottom: 1px solid white;
+  width: 295px;
+  height: 75px;
+  font-size: 28px;
 }
 
-.buttons {
-  display: grid;
-  height: 500px;
-  margin-top: 100px;
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  position: absolute;
+  top: 75px;
+  width: 295px;
 }
 
-button {
-  background-color: rgb(74, 72, 72);
-  height: 100px;
-  width: 70px;
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  position: absolute;
+  top: 150px;
+  width: 295px;
+}
+
+.row4 {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  position: absolute;
+  top: 225px;
+  width: 295px;
+}
+
+.row5 {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  position: absolute;
+  top: 300px;
+  width: 295px;
+}
+
+button.zeroButton {
+  width: 205%;
+}
+
+.row6 {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  position: absolute;
+  top: 375px;
+  width: 295px;
 }
